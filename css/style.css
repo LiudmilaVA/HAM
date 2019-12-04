@@ -939,13 +939,14 @@ body {
     margin-bottom: 20px;
     box-sizing: border-box;
     display: inline-block;
+    cursor: pointer;
 }
 .grid-item--width2 {
     width: calc(100%/6);
 }
-.grid-item:hover .grid-item__icon--wrapper{
-    opacity: 1;
-}
+/*.grid-item:hover .grid-item__icon--wrapper{*/
+/*    opacity: 1;*/
+/*}*/
 .grid-item__icon--wrapper {
     position: absolute;
     top: 0;
