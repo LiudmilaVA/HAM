@@ -122,7 +122,7 @@ document.onreadystatechange = function(){
             percentPosition: true,
             itemSelector: '.grid-item',
             columnWidth: '.grid-sizer',
-            gutter: 10,
+            // gutter: 10,
             horizontalOrder: true
         });
     }
